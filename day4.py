@@ -17,7 +17,7 @@ def get_neighbours(x, y, X, Y):
 def get_neighbours2(x, y):
     return [(x, y), (x - 1, y - 1), (x - 1, y + 1), (x + 1, y - 1), (x + 1, y + 1)]
 
-get_neighbours(0, 0, 4, 4)
+
 with open("day4.txt", "r") as f:
     data = [list(i) for i in f.read().splitlines()]
 
